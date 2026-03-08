@@ -1,2 +1,2 @@
 # Website
-The New Finance Initiative website
+The New Finance Initiative website.
