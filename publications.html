@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0MQ2BX1LZ0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0MQ2BX1LZ0');
+</script>
+
+	  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | New Finance Initative</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <a href="index.html">
+	<div class="image-container">
+	<img src="logo_01.png" alt="New Finance Initiative">
+    </a>
+	  </div>
+</body>
+<div>
+	<nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="petitions.html">Petitions</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+<div>
+  <h2>Publications</h2>
+</div>
+<div class="product-header"><h2>Publications (Free)</h2></div>
+<div class="publications-grid">
+<div class="publication-card">
+  <div>
+<div class="publication-title">Blockchain Technology Basics</div>
+<div class="publication-description">Consultation paper giving the basic knowledge needed to engage in the blockchain industry.
+  </div>
+  </div>
+        <a href="Publications/Blockchain-Technology-Basics.pdf" onclick="gtag('event', 'download', { 'file_name': 'Blockchain-Technology-Basics.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">Implementing Digital Identity</div>
+<div class="publication-description">The aim of this letter is to provide in-sight to how digital IDs can be applied to the creation of new economic models.
+  </div>
+  </div>
+        <a href="/Publications/Implementing-Digital-Identity.pdf" onclick="gtag('event', 'download', { 'file_name': 'Implementing-Digital-Identity.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">Opening-Letter-(Forward-&-Progressive)</div>
+<div class="publication-description">This letter was written with an emphasis of looking at the financial markets from an alternative view point to how innovation can be pursued.
+  </div>
+  </div>
+        <a href="/Publications/Opening-Letter-(Forward-&-Progressive).pdf" onclick="gtag('event', 'download', { 'file_name': 'Opening-Letter (Forward & Progressive).pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">The Importance of Circulating Cash Monies</div>
+<div class="publication-description">Cash monies are fundamental to financial inclusion and maintaining economic stability, this letter aims to offer necessary conversation for why cash money is so important in finance.
+  </div>
+  </div>
+        <a href="/Publications/The-Importance-Of-Circulating-Cash-Monies.pdf" onclick="gtag('event', 'download', { 'file_name': 'The-Importance-Of-Circulating-Cash-Monies.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">Finance On The Blockchain</div>
+<div class="publication-description">A short yet prompt letter of decentralised finance or "finance on the blockchain".
+  </div>
+  </div>
+        <a href="/Publications/Finance-On-The-Blockchain.pdf" onclick="gtag('event', 'download', { 'file_name': 'Finance-On-The-Blockchain.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">Mission Statement</div>
+<div class="publication-description">The New Finance Initiative mission statement.
+  </div>
+  </div>
+        <a href="/Publications/Mission-Statement.pdf" onclick="gtag('event', 'download', { 'file_name': 'Mission-Statement.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+      <div class="publication-card">
+  <div>
+<div class="publication-title">Policy Statement</div>
+<div class="publication-description">The New Finance Initiative policy statment.
+  </div>
+  </div>
+        <a href="/Publications/Policy-Statement.pdf" onclick="gtag('event', 'download', { 'file_name': 'Policy-Statement.pdf' })" download class="download-button" style="font-size: 0.85rem; color: #eee; margin-top: 0.25rem;">
+          📄 Download
+        </a>
+      </div>
+</div> 
+<div class="product-header" style="padding-top: 25px;"><h2>Publications (Paid)</h2></div>
+<script>
+  fetch('/Publications/stats.json')
+    .then(res => res.json())
+    .then(stats => {
+      document.querySelectorAll('.count').forEach(el => {
+        const file = el.getAttribute('data-file');
+        if (file && stats[file] !== undefined) {
+          el.textContent = `${stats[file]} downloads`;
+        } else {
+          el.textContent = `0 downloads`;
+        }
+      });
+    })
+    .catch(err => {
+      console.error('Failed to load stats:', err);
+    });
+</script>
+
+<footer style="border-radius: 10px;">© 2024-2025 New Finance Initiative - All Rights Reserved.</footer>

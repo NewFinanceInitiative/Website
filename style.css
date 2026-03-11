@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #737373;
+    background-color: #ffffff;
+}
+
+header {
+    background: #fff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+h1 {
+    color: #4c5ac9;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 50px
+}
+
+h2 {
+    color: #4c5ac9;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 25px
+}
+
+h3 {
+    color: #4c5ac9;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px
+}
+
+nav {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+.image-container {
+    text-align: center; /* Centers the image horizontally */
+    padding-top: 40px; /* Adjust the spacing from the top */
+    padding-bottom: 40px;
+}
+
+.image-container img {
+    width: 600px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-header h2 {
+    color: #4c5ac9;
+    text-align: left;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 25px;
+}
+
+.title-row-services {
+    display: flex;
+    justify-content: center;   /* center all horizontally */
+    align-items: center;       /* vertically align if needed */
+    gap: 2rem;                 /* space between titles */
+    text-align: center;
+    margin: 2rem auto;
+    flex-wrap: wrap;  
+}
+
+.title-row-services h2 {
+    font-family: 'Roboto', sans-serif;
+    flex: 1;                   /* make them equal width */
+    font-size: 1.5rem;
+    color: #4c5ac9;
+    margin: 0;
+}
+
+.text-content p {
+    margin-bottom: 30px;
+    line-height: 1.2;
+    max-width: 1000px; 
+    text-align: center; 
+    padding-left: 200px; 
+}
+
+.product-page p {
+    padding-bottom: 30px;
+    padding-left: 475px;
+    text-align: center;
+}
+
+.publications-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+.publication-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+.publication-title {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+.publication-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+.download-button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #4c5ac9;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+.button-container {
+  display: flex;
+  justify-content: center; /* centers buttons horizontally */
+  gap: 1rem;               /* spacing between buttons */
+  margin-top: 1rem;
+  padding-bottom: 50px;
+}    
+
+.product-button {
+  background: #4c5ac9;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-button:hover {
+      background-color: #0056b3;
+} 
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 1rem 0;
+    padding-left: 25px;
+    background: #4c5ac9;
+    color: #fff;
+}
